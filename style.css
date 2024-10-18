@@ -1,0 +1,89 @@
+body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text */
+    font-family: "Poppins", sans-serif;    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+  }
+  h1{
+    font-size: 50px;
+  }
+  #left-side {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  #right-side {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border-color: #bb86fc;
+    background-color: #1e1e1e; /* Darker input background */
+    color: #ffffff; /* White input text */
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #000000; /* Purple button background */
+    color: #ffffff; /* White button text */
+    border-radius: 4px;
+    border-color: #bb86fc;
+    margin-top: 10px;
+    transition: 1s;
+    /* margin-left: 10px; Space between input and button */
+  }
+  
+  button:hover {
+    transition: 1s;
+    font-size: 20px;
+}
+  
+  .results {
+    border-color: #bb86fc;
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .result-item {
+    border-color: #bb86fc;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #444; /* Darker border */
+    padding-bottom: 5px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #3da8eb; /* Light purple links */
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  #left-side h1 {
+    color: #ffffff; /* White heading */
+  }
+p{
+    font-size: 18px;
+}
